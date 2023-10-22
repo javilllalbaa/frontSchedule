@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductPage component WHEN the Product component is render THEN should display Product component 1`] = `ShallowWrapper {}`;

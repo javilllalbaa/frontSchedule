@@ -1,0 +1,78 @@
+@import '../../index';
+
+.header-container {
+  background-color: $aplication-color;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 160px;
+  padding-right: 160px;
+  p {
+    font-size: 14px;
+    color: $layout-color;
+  }
+}
+
+.header-form {
+  display: flex;
+  margin: 6px 0 0 0;
+  padding: 15px 160px 15px 160px;
+  div {
+    background-color: $layout-color;
+    flex: 1 1 auto;
+    h1 {
+      font-size: 18px;
+      font-weight: 400;
+    }
+  }
+  form {
+    display: flex;
+    button {
+      background-color: $color-content;
+    }
+  }
+  .input-container {
+    padding-bottom: 20px;
+    flex-direction: row;
+    display: flex;
+    .flex-input {
+      display: flex;
+      width: 100%;
+    }
+  }
+  .btn-paginator {
+    text-align: -webkit-center;
+    display: flex;
+  }
+}
+
+@media (max-width: $breakpoint-windows) {
+  .header-form {
+    padding: 32px;
+  }
+}
+
+@media (max-width: $breakpoint-tablet) {
+  .header-form {
+    flex-direction: column;
+    padding: $space-2;
+  }
+}
+
+@media (max-width: $breakpoint-mobile) {
+  .header-form {
+    padding: $space-2;
+  }
+}
+
+.header-input {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: $layout-color;
+  width: calc(100% - 20px);
+  color: #3b4f66;
+  font-size: 16px;
+  border: solid 0.5px $color-content;
+}
+

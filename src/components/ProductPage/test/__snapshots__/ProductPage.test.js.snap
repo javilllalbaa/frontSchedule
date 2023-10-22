@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductPage component WHEN the ProductPage component is render THEN should display ProductPage component 1`] = `ReactWrapper {}`;
+
+exports[`ProductPage component WHEN the ProductPage component is render with product THEN should display ProductPage component 1`] = `ShallowWrapper {}`;
+
+exports[`ProductPage component WHEN the ProductPage component is render without product THEN should display ProductPage component without product 1`] = `ShallowWrapper {}`;

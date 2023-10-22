@@ -1,0 +1,71 @@
+@import "../../index";
+
+.product-container {
+  padding: $space-2;
+}
+
+@media (max-width: $breakpoint-mobile) {
+  .product-container {
+    padding: $space-2;
+  }
+}
+
+@media (min-width: 321px) and (max-width: $breakpoint-mobile-2) {
+  .product-container {
+    padding: 32px 70px;
+    width: 70%;
+  }
+}
+
+@media (min-width: 376px) and (max-width: $breakpoint-mobile-3) {
+  .product-container {
+    width: 54%;
+    padding: 5% 28%;
+  }
+}
+
+@media (min-width: $breakpoint-windows) {
+  .product-container {
+    padding: 15px 160px 15px 160px;
+  }
+}
+
+.product-content {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc!important;
+  @media (max-width: $breakpoint-tablet) {
+    display: block !important;
+  }
+}
+
+.product-section {
+  display: flex;
+  width: 100%;
+  padding: 20px 0px;
+  div {
+    flex: 1 1 auto;
+    button {
+      border: solid 1px red;
+      background-color: red;
+      position: inherit;
+    }
+  }
+}
+
+@media (max-width: $breakpoint-tablet) {
+  .product-section {
+    flex-direction: column;
+    div {
+      padding: 5px 0px;
+    }
+  }
+}
+
+
+
+@media (max-width: $breakpoint-tablet) {
+  .product-responsive {
+    width: 100%;
+  }
+}

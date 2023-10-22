@@ -1,0 +1,30 @@
+@import 'index';
+
+.layout {
+  background-color: $background-color;
+  min-height: calc(100vh - 148px);
+  padding: 15px 160px 15px 160px;
+}
+
+.container {
+  background-color: $layout-color;
+  min-height: calc(100vh - 148px);
+}
+
+.search-button {
+  background-color: #3483fa;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 7px 14px;
+  border: solid 1px $background-color;
+  cursor: pointer;
+  height: 40px;
+  position: relative;
+  top: 10px;
+}
